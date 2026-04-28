@@ -20,7 +20,15 @@ export default async function Home(props: {
     fields: "id, handle, title",
   })
 
-  if (!collections || !region) return null
+  if (!collections || !region) {
+    return (
+      <div className="content-container py-24 text-center">
+        <p style={{ color: "#6b7280" }}>
+          Loading store data...
+        </p>
+      </div>
+    )
+  }
 
   // Split collections — first one is "Recommended", rest are "Special Deals"
   const recommended = collections.slice(0, 1)
