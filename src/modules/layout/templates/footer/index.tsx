@@ -161,7 +161,7 @@ export default async function Footer() {
             © {new Date().getFullYear()} Digital Wave. All rights reserved.
           </span>
           <span style={{ color: "rgba(147, 197, 253, 0.35)", fontSize: "0.75rem" }}>
-            Kitwe, Zambia 🇿🇲
+            Lusaka, Zambia 🇿🇲
           </span>
         </div>
       </div>

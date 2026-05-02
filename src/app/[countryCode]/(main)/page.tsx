@@ -139,7 +139,7 @@ export default async function Home(props: {
       {collections.length === 0 && (
         <div className="content-container py-24 text-center">
           <p style={{ color: "#6b7280" }}>
-            No products yet — add collections in your Medusa admin to get started.
+            No products yet, add collections 
           </p>
         </div>
       )}
